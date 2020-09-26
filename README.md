@@ -35,6 +35,9 @@ Austin Foster | https://afoster1234.github.io/P2-PlatformPegSmash/
 Images are from "Scribble Platformer". Created by Kenny.nl, CC0 1.0 Universal. 
 Source: https://kenney.nl/assets/scribble-platformer
 
+Images are from "Abstract Platformer". Created by Kenny.nl, CC0 1.0 Universal. 
+Source: https://www.kenney.nl/assets/abstract-platformer
+
 Sounds are from "FreeSound". Created by 17nflores2, CC0 1.0 Universal. 
 Source: https://freesound.org/people/17nflores2/sounds/463861/
 

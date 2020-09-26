@@ -2,12 +2,12 @@
 
 importer="wav"
 type="AudioStreamSample"
-path="res://.import/bullet_fire.wav-a08380c61421d2dbac84713151409515.sample"
+path="res://.import/load_chamber.wav-e39bfba12e196c9985fa9e1e35ce3aa3.sample"
 
 [deps]
 
-source_file="res://assets/bullet_fire.wav"
-dest_files=[ "res://.import/bullet_fire.wav-a08380c61421d2dbac84713151409515.sample" ]
+source_file="res://assets/Audio/load_chamber.wav"
+dest_files=[ "res://.import/load_chamber.wav-e39bfba12e196c9985fa9e1e35ce3aa3.sample" ]
 
 [params]
 
