@@ -12,7 +12,6 @@ func _process(delta):
 		velocity.x += SPEED
 	if Input.is_action_pressed("move_left"):
 		velocity.x -= SPEED
-
 	velocity.y += GRAVITY
 	if Input.is_action_just_pressed("jump"):
 		velocity.y -= JUMP
