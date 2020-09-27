@@ -6,8 +6,13 @@ Austin Foster | https://afoster1234.github.io/P2-PlatformPegSmash/
 
                         A: Move Character Left
                         D: Move Character Right
-                    Sapce: Jump
-OBJECTIVE | Obtain all keys to win!
+                    Space: Jump
+             Mouse Cursor: Hover over KEYS to grab them
+
+OBJECTIVE | Obtain all KEYS to win!
+HINT | There are 3 keys and they are green.
+
+Good Luck!
 
 ## Project Report
 
