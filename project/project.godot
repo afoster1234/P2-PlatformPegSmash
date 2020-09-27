@@ -19,6 +19,10 @@ config/name="PlatformPegSmash"
 run/main_scene="res://src/World.tscn"
 config/icon="res://icon.png"
 
+[audio]
+
+enable_audio_input=true
+
 [display]
 
 window/size/width=1600
