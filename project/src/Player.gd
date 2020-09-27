@@ -4,9 +4,9 @@ const GRAVITY := 2
 const JUMP := 1000
 const SPEED := 600
 
-onready var ground_ray = get_node("RayCast2D")
+onready var ground_ray := get_node("RayCast2D")
 
-var velocity = Vector2.ZERO
+var velocity := Vector2.ZERO
 
 func _process(delta):
 	velocity.x = 0
