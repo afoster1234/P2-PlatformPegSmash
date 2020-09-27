@@ -33,6 +33,7 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 2 )
 animation = "walkright"
+frame = 2
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -41,3 +42,4 @@ zoom = Vector2( 0.5, 0.5 )
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 enabled = true
+cast_to = Vector2( 0, 25 )
