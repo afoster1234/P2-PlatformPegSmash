@@ -4,7 +4,7 @@
 [ext_resource path="res://src/World.gd" type="Script" id=2]
 [ext_resource path="res://src/Player.tscn" type="PackedScene" id=3]
 [ext_resource path="res://src/Key.tscn" type="PackedScene" id=4]
-[ext_resource path="res://assets/Audio/Lullaby by Joakim Karud (official).wav" type="AudioStream" id=5]
+[ext_resource path="res://assets/Audio/background-music.wav" type="AudioStream" id=5]
 
 [sub_resource type="ConvexPolygonShape2D" id=1]
 points = PoolVector2Array( 64, 64, 0, 64, 0, 0, 64, 0 )

@@ -1,21 +1,23 @@
 ## Project 2, Iteration 1
 
-Austin Foster | PLAY HERE : https://afoster1234.github.io/P2-PlatformPegSmash/
+Austin Foster | PLAY HERE : https://bsu-cs315.github.io/P2-PlatformKeyGrab/
 
 ## INSTRUCTIONS
 
                         A: Move Character Left
                         D: Move Character Right
                     Space: Jump
-             Mouse Cursor: Hover over KEYS to grab them
+             Mouse Cursor: Hover over KEYS to obtain them
 
 OBJECTIVE | Obtain all KEYS to win!
-HINT | There are 3 keys and they are green.
+HINT 1 | Act like the mouse is an extension of your characters hand, mouse is preferred over a touchpach.
+HINT 2 | There are 3 keys and they are green.
 
 Good Luck!
 
 ## Project Report
 
+Project 2 was actually some of the most fun I have had coding in a while! I loved the creative freedom of the game development process as I have learned from the past project as well, the sky is the limit. Despite having a few mistakes here and there in the last 3 iterations of Project 1, I think this time around and starting fresh, I had a much better idea of how things in this engine work and the different types of nodes there are and how they work, sometimes working together. I really hope that I got all of the A tier requirements fufilled because I combed over the project and the checklist several times before deciding that I had submittable content. One of the things I liked about the porject on this go around is that I actually had quite a bit of trouble with the AnimationPlayer and getting the player to be correctly oriented. I know it sounds weird to say I liked struggling, yet that is the essence of learning something new. In my opinion it is also especially prevelant in writing code because once you have invested enough time into it and figure out what works and what does not, that is when you really gain a broader view of how things work and ultimately become a better creator.
 
 - [X] D-1: The repository link is submitted to Canvas before the project deadline.
 - [X] D-2: The repository contains a <code>README.md</code> file in its top-level directory.
@@ -39,6 +41,7 @@ Good Luck!
 - [ ] ⭐ Include parallax scrolling in the background.
 - [ ] ⭐ Include tiles that can be passed in one direction, such as being able to jump up through a tile and land atop it.
 
+Therefore this Project deserves an A.
 
 ## Third-Party Assets
 Images are from "Scribble Platformer". Created by Kenny.nl, CC0 1.0 Universal. 
@@ -47,6 +50,5 @@ Source: https://kenney.nl/assets/scribble-platformer
 Images are from "Abstract Platformer". Created by Kenny.nl, CC0 1.0 Universal. 
 Source: https://www.kenney.nl/assets/abstract-platformer
 
-SoundTrack is from "Youtube". Created by Joakim Karud, CC0 1.0 Universal.
-Source: https://www.youtube.com/watch?v=C63AbbfiFEw&ab_channel=JoakimKarud
-Credit: JoakimKarud.com
+Sounds are from "FreeSound". Created by Sunsai, CC0 1.0 Universal. 
+Source: https://freesound.org/people/Sunsai/sounds/415804/
