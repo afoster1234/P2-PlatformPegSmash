@@ -44,15 +44,6 @@ tile_data = PoolIntArray( -917477, 0, 0, -851942, 0, 0, -851941, 0, 0, -851940, 
 [node name="Player" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1753.58, 1565 )
 
-[node name="Key" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1753.25, -221.8 )
-
-[node name="Key2" parent="." instance=ExtResource( 4 )]
-position = Vector2( 122.387, 545.242 )
-
-[node name="Key3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3414.62, 541.466 )
-
 [node name="KeysMessage" type="Label" parent="."]
 margin_left = 1698.17
 margin_top = 1494.89
@@ -67,10 +58,21 @@ __meta__ = {
 "_edit_use_anchors_": false
 }
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+[node name="BackgroundMusic" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 5 )
 volume_db = -20.0
 autoplay = true
+
+[node name="Key" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1456.43, 1540.52 )
+
+[node name="Key2" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1375.71, 1543.88 )
+
+[node name="Key3" parent="." instance=ExtResource( 4 )]
+position = Vector2( 1298.34, 1540.52 )
 [connection signal="obtained" from="Key" to="." method="_on_Key_obtained"]
+[connection signal="obtained" from="Key2" to="." method="_on_Key_obtained"]
 [connection signal="obtained" from="Key2" to="." method="_on_Key2_obtained"]
+[connection signal="obtained" from="Key3" to="." method="_on_Key_obtained"]
 [connection signal="obtained" from="Key3" to="." method="_on_Key3_obtained"]

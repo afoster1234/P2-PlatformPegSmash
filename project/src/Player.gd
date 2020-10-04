@@ -1,8 +1,8 @@
 extends KinematicBody2D
 
-const GRAVITY := 2
-const JUMP := 1000
-const SPEED := 600
+const GRAVITY := 10
+const JUMP := 500
+const SPEED := 500
 
 onready var ground_ray := get_node("RayCast2D")
 
@@ -17,6 +17,7 @@ func _process(delta):
 	velocity.y += GRAVITY
 	if Input.is_action_just_pressed("jump") and ground_ray.is_colliding():
 		velocity.y -= JUMP
+		$Jump.play()
 	velocity = move_and_slide(velocity)
 	$AnimatedSprite.play()
 	if velocity.x != 0:

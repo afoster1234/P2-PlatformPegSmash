@@ -1,0 +1,36 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://src/EndGame.gd" type="Script" id=1]
+[ext_resource path="res://assets/PNG/titleEnd.png" type="Texture" id=2]
+
+[node name="EndGame" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ColorRect" type="ColorRect" parent="."]
+margin_right = 1600.0
+margin_bottom = 900.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="Button" parent="."]
+margin_left = 670.11
+margin_top = 737.689
+margin_right = 761.11
+margin_bottom = 766.689
+rect_scale = Vector2( 3.13963, 3.36221 )
+text = "RESTART"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="titleEnd" type="Sprite" parent="."]
+position = Vector2( 814.259, 413.031 )
+texture = ExtResource( 2 )
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
