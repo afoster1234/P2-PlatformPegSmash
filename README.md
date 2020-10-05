@@ -1,23 +1,22 @@
-## Project 2, Iteration 2
-
+# Project 2, Iteration 2
 Austin Foster | PLAY HERE : https://bsu-cs315.github.io/P2-PlatformKeyGrab/
 
-## INSTRUCTIONS
+## Controls
+* A: Move Character Left
+* D: Move Character Right
+* Space: Character Jump
+* Mouse Cursor: Used to grab the key (Hover over key)
 
-A: Move Character Left
-D: Move Character Right
-Space: Jump
-Mouse Cursor: Hover over KEYS to obtain them
-
-OBJECTIVE | Obtain all KEYS to win!
-HINT 1 | Act like the mouse is an extension of your characters hand, mouse is preferred over a touchpach.
-HINT 2 | There are 3 keys and they are green.
+### INSTRUCTIONS
+* OBJECTIVE | Find the key and use it to escape through one of the doors to win!
+* HINT | Act like the mouse is an extension of your characters hand, mouse is preferred over a touchpach.
 
 Good Luck!
 
 ## Project Report
-
 This project was one of the most difficult yet because I had no idea how to fix my DRY violation from last iteration where I clearly repeated myself. Instead, I changed the objective of the game a little in order to fix that issue even though I tried quite hard to figure out how to do it the way you explained in your comment. I think the hardest thing for me to understand is how the signals work and how they connect, because doing any more than I have in this iteration would've confused me a little too much. However, even if I cannot get all fancy with signals and things of the like, I still believe the creativity I exhibited can respectably balance that lack of complexity in the signal catagory. Overall, I think this game is a pretty neat little game. I had trouble at first figuring out how to create the player experience loop, but once I figured it out how to manage multiple scenes that allow this loop to happen, then it was smooth sailing. Another problem I had was figuring out how and where to add the spikes that cause the death sequence in the player loop. After all is said and done I think that I will hopefully be prepared for the 3d project and am excited to keep learning more.
+
+My only example of juice is the sound effects I have added for jumping. This gives a very tactile feel to the game as far a movement goes. As well as the sound for obtaining the key, both of which are good examples of game feel/ juice.
 
 - [X] D-1: The repository link is submitted to Canvas before the project deadline.
 - [X] D-2: The repository contains a <code>README.md</code> file in its top-level directory.
