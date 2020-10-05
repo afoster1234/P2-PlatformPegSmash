@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="PlatformPegSmash"
-run/main_scene="res://src/MainUI.tscn"
+run/main_scene="res://src/TitleScreen.tscn"
 config/icon="res://icon.png"
 
 [audio]

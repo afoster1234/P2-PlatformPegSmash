@@ -14,14 +14,14 @@ extents = Vector2( 19.6109, 22.8694 )
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ) ],
-"loop": true,
-"name": "walkleft",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 3 ), ExtResource( 1 ), ExtResource( 2 ) ],
 "loop": true,
 "name": "walkright",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 5 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "walkleft",
 "speed": 5.0
 } ]
 
@@ -34,12 +34,20 @@ shape = SubResource( 1 )
 [node name="AnimatedSprite" type="AnimatedSprite" parent="."]
 frames = SubResource( 2 )
 animation = "walkright"
-frame = 2
+frame = 1
 playing = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
+offset = Vector2( 0, -100 )
 current = true
 zoom = Vector2( 0.5, 0.5 )
+process_mode = 0
+drag_margin_h_enabled = true
+drag_margin_v_enabled = true
+drag_margin_left = 0.0
+drag_margin_top = 0.0
+drag_margin_right = 0.0
+drag_margin_bottom = 0.0
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 enabled = true
@@ -48,12 +56,15 @@ cast_to = Vector2( 0, 25 )
 [node name="Jump" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 8 )
 
-[node name="Label" type="Label" parent="."]
-margin_left = -383.448
-margin_top = 192.565
-margin_right = -266.448
-margin_bottom = 206.565
-text = "Keys Remaining: 0"
+[node name="KeyStatus" type="Label" parent="."]
+margin_left = -33.1137
+margin_top = -37.3866
+margin_right = 99.8863
+margin_bottom = -23.3866
+rect_scale = Vector2( 0.49432, 0.77543 )
+text = "Key Status: Unknown"
+align = 1
+valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
 }

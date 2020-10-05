@@ -1,16 +1,17 @@
 extends Node
 
-var targets_remaining = 3
-
-func _process(delta):
-	if targets_remaining == 0:
-		var _ignored = get_tree().change_scene("res://src/EndGame.tscn")
+var has_key = false
 
 func _on_Key_obtained():
-	targets_remaining -= 1
+	$KeyGrab.play()
+	$Player/KeyStatus.text = ("Key Status: Found")
+	has_key = true
 
-func _on_Key2_obtained():
-	targets_remaining -= 1
+func _on_BrokenDoor_pressed():
+	$BrokenDoor.text = ("Door is Broken")
 
-func _on_Key3_obtained():
-	targets_remaining -= 1
+func _on_EscapeDoor_pressed():
+	if has_key == true:
+		var _scene = get_tree().change_scene("res://src/EndGame.tscn")
+	if has_key == false:
+		$EscapeDoor.text = ("Locked")

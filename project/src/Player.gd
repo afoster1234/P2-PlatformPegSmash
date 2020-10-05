@@ -25,3 +25,4 @@ func _process(delta):
 		$AnimatedSprite.flip_h = velocity.x < 0
 	else:
 		$AnimatedSprite.stop()
+	
